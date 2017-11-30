@@ -1,0 +1,22 @@
+extends: airbnb-base
+env:
+  node: true
+  mocha: true
+plugins:
+  - import
+rules:
+
+  # I build console apps!
+  no-console: 0
+
+  # TODO: backticks or single quotes for strings.,  
+  # quotes: ?
+
+  # Object literals don't need a dangling comma at the end of the last field
+  # definition.
+  comma-dangle: 0
+
+  # Sometimes I like a single 'return' statement in a full bloc, e.g. see the
+  # tests, so relax the requirement to have single return statements
+  arrow-body-style: 0
+  import/no-extraneous-dependencies: [error, { devDependencies: ['**/*.spec.js'] }]
