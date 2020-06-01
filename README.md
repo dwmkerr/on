@@ -1,5 +1,7 @@
 # on
 
+[![GuardRails badge](https://badges.production.guardrails.io/dwmkerr/on.svg)](https://www.guardrails.io)
+
 `on` is a simple tool which can help when working with environment variables.
 
 Install with `npm install -g on`. You can then define a set of environments in an `.on.yml` file:
